@@ -51,8 +51,8 @@ https://github.com/tensorflow/tensorflow/tree/master/tools/tf_env_collect.sh
 You can also obtain the TensorFlow version with:
 
 1. TensorFlow 1.0
-`python -c "import tensorflow.compat.v1 as tf; print(tf.GIT_VERSION, tf.VERSION)"`
+`python -c "import tensorflow as tf; print(tf.GIT_VERSION, tf.VERSION)"`
 
 2. TensorFlow 2.0
-`python -c "import tensorflow.compat.v1 as tf; print(tf.version.GIT_VERSION, tf.version.VERSION)"`
+`python -c "import tensorflow as tf; print(tf.version.GIT_VERSION, tf.version.VERSION)"`
 -->
