@@ -16,7 +16,7 @@
 
 Common flags from train/eval/vis/export_model.py are collected in this script.
 """
-import collections.abc as collections
+import collections as collections
 import copy
 import json
 import tensorflow.compat.v1 as tf
